@@ -23,19 +23,6 @@ Scenario: L'utilisateur se déconnecte après s'être connecté
     And Il confirme la déconnexion dans la popup
     Then L'utilisateur est sur la page de login
     
-
-Scenario: L'utilisateur change son mot de passe
-    Given L'utilisateur est sur la page de login
-    When Il saisit "" dans le champ username
-    And Il saisit "" dans le champ password
-    And Il clique sur le bouton de connexion
-    And Il clique sur le bouton de changement de mot de passe
-    And Il entre "bug" comme ancien mot de passe
-    And Il entre "newbug" comme nouveau mot de passe
-    And Il confirme avec "newbug"
-    And Il clique sur Change password
-    Then Un message confirmant le changement de mot de passe est affiché
-    
 Scenario: L'utilisateur modifie le niveau de sécurité
     Given L'utilisateur est sur la page de login
     When Il saisit "bee" dans le champ username
@@ -45,3 +32,15 @@ Scenario: L'utilisateur modifie le niveau de sécurité
     And Il sélectionne le niveau high
     And Il clique sur le bouton de Set
     Then Le niveau de sécurité affiché est "high"
+    
+Scenario: L'utilisateur change son mot de passe
+    Given L'utilisateur est sur la page de login
+    When Il saisit "bee" dans le champ username
+    And Il saisit "bug" dans le champ password
+    And Il clique sur le bouton de connexion
+    And Il clique sur le bouton de changement de mot de passe
+    And Il entre "bug" comme ancien mot de passe
+    And Il entre "newbug" comme nouveau mot de passe
+    And Il confirme avec "newbug"
+    And Il clique sur Change password
+    Then Un message confirmant le changement de mot de passe est affiché
