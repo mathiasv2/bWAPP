@@ -160,6 +160,5 @@ public class bWAPPSteps
         var dropdown = _driver.FindElement(By.Name("security_level"));
         var select = new SelectElement(dropdown);
         select.SelectByValue("2");
-        Console.WriteLine("selected option:" + select.SelectedOption.Text);
     }
 }
