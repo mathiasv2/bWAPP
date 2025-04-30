@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{1C446AB0-F12E-4E32-9C3E-0943410BC7DF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="bWAPP/Features/bWAPP.feature">
+    <Files>
+      <File FileName="bWAPP/bWAPPSteps.cs" Line="1" Column="1" />
+      <File FileName="bWAPP/Features/bWAPP.feature" Line="7" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="bWAPP">
+            <Node name="bWAPP" expanded="True">
+              <Node name="Features" expanded="True">
+                <Node name="bWAPP.feature" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.bWAPP PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>
